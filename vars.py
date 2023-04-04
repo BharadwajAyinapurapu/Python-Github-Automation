@@ -1,0 +1,6 @@
+GITHUB_URL = "https://github.com"
+GITHUB_TOKEN = "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"
+GITHUB_ORG = "Github-Repo-Python"
+repo_name = "role5-auto"
+github_org = "Github-Repo-Python"
+template_name = "ansible-roles"
