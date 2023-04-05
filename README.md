@@ -1,5 +1,8 @@
 # Python-Github-Automation
-Python script to automate Github resource creation
+Python script to automate Github resource creation 
+
+Using this Organization - 
+[Github ORganization](https://github.com/Github-Repo-Python)
 
 Following can be achieved
 -------------------------
