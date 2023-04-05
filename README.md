@@ -7,3 +7,4 @@ Following can be achieved
 - Create a new repository based on a template
 - Set the repository settings
 - Set the branch protection rules for main branch
+- Assign collaborators to the repository

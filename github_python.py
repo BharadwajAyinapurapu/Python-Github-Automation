@@ -22,7 +22,17 @@ def main(repo_name, github_org, template_name):
     # Repository settings
     set_repo_settings(new_repo)
 
+    # Adding collaborators
+    collaborators = collaborator_list
+    add_collaborators(new_repo, _github, collaborators)
 
+
+
+def add_collaborators(new_repo: Repository.Repository, github: Github, collaborators: list[str]) -> None:
+    for user in collaborators:
+        u = github.get_user(user)
+        new_repo.add_to_collaborators(collaborator=u, permission="push")
+    print("Collaborators added successfully")
 
 def set_repo_settings(repo: Repository.Repository) -> None:
     repo.edit(
